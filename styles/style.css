@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(20, 20, 20);
+    overflow-y: scroll;
+}
+.header_text h1,h2{
+    font-weight: normal;
+    color: darkgray;
+}
+
+.header_text h2{
+    font-size: 13px;
+}
+.header_text h1{
+    font-size: 36px;
+    margin: 0 120px 0 0;
+}
+.section-header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    color: darkgray;
+}
+
+.list li{
+    display: inline;
+    float: right;
+    padding: 0 8px;
+}
+
+.header_navbar{
+    width: 500px;
+    height: 50px;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 150px;
+}
+.link:hover{
+    color: purple;
+    text-shadow: 5px 5px 20px purple,
+                -5px -5px 20px purple;
+}
+.link:active{
+    color: rgb(71, 0, 71);
+}
+
+.first-third{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0 0;
+}
+.first-third_text{
+    width: 280px;
+    height: 300px;
+    background-color: rgb(41, 41, 41);
+    margin: 0 10px 0 0;
+    padding: 15px;
+    
+}
+.first-third_text h2{
+    font-size: 40px;
+    color: gray;
+}
+.first-third_text p{
+    font-size: 15px;
+    margin-top: 15px;
+    color: rgb(143, 143, 143);
+}
+.first-third_text a{
+    text-decoration: none;
+    color: purple;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    
+}
+
+.first-third_link:hover{
+    text-shadow: 5px 5px 20px purple,
+                -5px -5px 20px purple;
+}
+.first-third_link:active{
+    color: rgb(77, 0, 77);
+}
+
+.first-third_text:hover{
+    background-color: rgb(37, 37, 37);
+    box-shadow: 5px 5px 20px purple,
+               -5px -5px 20px purple;
+}
+
+.first-third_image img{
+   width: 600px;
+   height: 300px;
+   
+}
+
+.first-third_image img:hover{
+    box-shadow: 5px 5px 20px purple,
+                -5px -5px 20px purple;
+}
+
+.same-box img{
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    float: left;
+}
+
+.same-box p{
+    color: white;
+    font-size: 15px;
+    color: rgb(143, 143, 143);
+}
+
+.same-box{
+    width: 300px;
+    height: 280px;
+    margin: 0 10px 0 0;
+    padding: 15px;
+}
+.same-box:hover{
+    box-shadow: 5px 5px 20px purple,
+                -5px -5px 20px purple;
+    background-color: rgb(27, 27, 27);
+}
+
+.same-box h2{
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.second-third{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.same-box a{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+    text-decoration: none;
+    color: purple;
+}
+
+.same-box a:hover{
+    text-shadow: 5px 5px 20px purple,
+                -5px -5px 20px purple;
+}
+
+.same-box a:active{
+    color: rgb(77, 0, 77);
+}
+
+.third-third_first-box img{
+    width: 215px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.third-third_first-box h2{
+    color: rgb(122, 122, 122);
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.third-third_first-box p{
+    color: darkgray;
+    margin-top: 10px;
+}
+
+.third-third_first-box{
+    width: 250px;
+    height: 270px;
+    padding: 12px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.third-third_first-box a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row-reverse;
+    color: purple;
+    margin-top: 20px;
+}
+
+.third-third_first-box a:hover{
+    text-shadow: 5px 5px 20px purple,
+                -5px -5px 20px purple;
+}
+
+.third-third_first-box a:active{
+    color: rgb(77, 0, 77);
+}
+
+.third-third_first-box:hover{
+    box-shadow: 5px 5px 20px purple,
+                -5px -5px 20px purple;
+    background-color: rgb(27, 27, 27);
+}
+
+.third-third{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
